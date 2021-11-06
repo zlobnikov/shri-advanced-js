@@ -1,0 +1,20 @@
+{
+  "name": "shri-advanced-js",
+  "version": "1.0.0",
+  "description": "Написать свой класс, который будет очень похож на ES6 множество:\r ```javascript\r class MySet {\r     // реализация\r }",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zlobnikov/shri-advanced-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zlobnikov/shri-advanced-js/issues"
+  },
+  "homepage": "https://github.com/zlobnikov/shri-advanced-js#readme"
+}
