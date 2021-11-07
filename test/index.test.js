@@ -1,5 +1,4 @@
-const { it, expect } = require('@jest/globals');
-const exp = require('constants');
+const { it, expect, describe } = require('@jest/globals');
 const MySet = require('../solution');
 
 describe('Testing MySet class', () => {
