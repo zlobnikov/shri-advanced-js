@@ -4,7 +4,7 @@
   "description": "Написать свой класс, который будет очень похож на ES6 множество:\r ```javascript\r class MySet {\r     // реализация\r }",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zlobnikov/shri-advanced-js/issues"
   },
-  "homepage": "https://github.com/zlobnikov/shri-advanced-js#readme"
+  "homepage": "https://github.com/zlobnikov/shri-advanced-js#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
 }
