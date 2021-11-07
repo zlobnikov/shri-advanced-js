@@ -46,7 +46,15 @@ module.exports = class {
     return this.array.map(value => [value, value])[Symbol.iterator]();
   }
 
-  forEach(cb) {
-    this.array.forEach(value => cb(value));
+  forEach(callback, thisArg) {
+    if (thisArg) {
+      this.array.forEach(value => {
+        callback.call(thisArg, value);
+      });
+    } else {
+      this.array.forEach(value => {
+        callback(value);
+      });
+    }
   }
 };
