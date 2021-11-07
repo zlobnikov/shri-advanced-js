@@ -35,14 +35,14 @@ module.exports = class {
   }
 
   keys() {
-    return this.array;
+    return this[Symbol.iterator]();
   }
 
   values() {
-    return this.array;
+    return this[Symbol.iterator]();
   }
 
   entries() {
-    return this.array.map(value => [value, value]);
+    return this.array.map(value => [value, value])[Symbol.iterator]();
   }
 };
