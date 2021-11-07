@@ -45,4 +45,8 @@ module.exports = class {
   entries() {
     return this.array.map(value => [value, value])[Symbol.iterator]();
   }
+
+  forEach(cb) {
+    this.array.forEach(value => cb(value));
+  }
 };
